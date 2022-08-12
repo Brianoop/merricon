@@ -219,7 +219,7 @@ header #menu {
 
 .who-we-are {
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .who-we-are h3 {
@@ -230,13 +230,13 @@ header #menu {
 .who-we-are p {
     padding-top: 2rem;
     font-size: 1rem;
-    text-align: justify;
+    text-align: center;
 }
 
 
 .what-we-do {
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .what-we-do h3 {
@@ -247,12 +247,43 @@ header #menu {
 .what-we-do p {
     padding-top: 2rem;
     font-size: 1rem;
-    text-align: justify;
+    text-align: center;
+}
+
+
+
+.section {
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.section h3 {
+    text-align: center;
+    font-size: 1.7rem;
+    padding-bottom: 2.5rem;
+}
+
+.section p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.section ul {
+    padding-top: 2rem;
+    font-size: 1rem;
+    width: 40vw;
+    margin: auto;
+}
+
+@media screen and (max-width: 720px) {
+    .section ul {
+        width: 80vw;      
+    }
 }
 
 .our-services {
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .our-services h3 {
